@@ -1,3 +1,5 @@
+import "definitions/*.pp"
+
 class ssh {
   package { "ssh":
     ensure => installed
