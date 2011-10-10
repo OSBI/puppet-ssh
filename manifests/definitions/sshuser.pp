@@ -1,5 +1,8 @@
 define sshuser {
-  @user { $title: }
+  @user { $title: 
+          shell   =>      "/bin/bash",
+          home    =>      "/home/$title",
+          managehome =>   true,}
   @file { "/home/${title}/.ssh":
     ensure => "directory",
     mode   => 600,
