@@ -7,4 +7,6 @@ define sshuser {
     group  => "puppet",
   }
   ssh::auth::key { "${title}@analytical-labs.com": }
+  realize User[$title]
+  realize File["/home/${title}/.ssh"]
 }
