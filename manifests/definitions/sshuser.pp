@@ -1,5 +1,5 @@
 define sshuser {
-  @grroup { "admin": ensure => present }
+  @group { "admin": ensure => present }
   @user { $title: 
           shell   =>      "/bin/bash",
           home    =>      "/home/$title",
