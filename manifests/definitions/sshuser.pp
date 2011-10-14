@@ -1,9 +1,10 @@
-define sshuser {
+define sshuser ($groups="users"){
   @user { $title: 
           shell   =>      "/bin/bash",
           home    =>      "/home/$title",
           managehome =>   true,
-	  groups => "admin"}
+	  groups => "${groups}"}
+	  
   @file { "/home/${title}/.ssh":
     ensure => "directory",
     mode   => 600,
