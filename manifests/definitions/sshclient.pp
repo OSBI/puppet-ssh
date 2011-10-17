@@ -1,5 +1,5 @@
 define sshclient (){
-  File{"/home/${title}":
+  file{"/home/${title}":
   	ensure => directory
   	}
   realize File["/home/${title}/.ssh"]
