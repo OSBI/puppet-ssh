@@ -1,5 +1,7 @@
 define sshclient (){
-  File["/home/${title}"]
+  File{"/home/${title}":
+  	ensure => directory
+  	}
   realize File["/home/${title}/.ssh"]
   User <| title == $title |> { ensure => $ensure }
   ssh::auth::client { "${title}@analytical-labs.com": }
