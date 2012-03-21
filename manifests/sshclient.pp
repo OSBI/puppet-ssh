@@ -1,4 +1,4 @@
-define sshclient (){
+define ssh::sshclient (){
   file{"/home/${title}":
   	ensure => directory
   	}

@@ -1,4 +1,3 @@
-
 class ssh {
   case $operatingsystem {
     /RedHat|CentOS/: {

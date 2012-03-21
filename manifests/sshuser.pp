@@ -1,4 +1,4 @@
-define sshuser ($usergroups="users"){
+define ssh::sshuser ($usergroups="users"){
   @user { $title: 
           shell   =>      "/bin/bash",
           home    =>      "/home/$title",
