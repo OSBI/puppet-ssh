@@ -1,5 +1,3 @@
-import "classes/*.pp"
-import "definitions/*.pp"
 
 class ssh {
   case $operatingsystem {
