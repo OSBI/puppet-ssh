@@ -23,7 +23,7 @@ class ssh::sftpserver{
 	file {
 		"/etc/init.d/ssh2":
 		ensure => present,
-		source => "puppet:///modules/ssh/sftp/sshd2_init",
+		source => "puppet:///modules/ssh/sftp/ssh2_init",
 				require => File["/etc/ssh2"],
 		
 	}

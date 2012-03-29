@@ -16,7 +16,7 @@
     "files/sftp/sshd_config": "e7bf0cb660acbc2adc947d25fabc2aa8",
     "manifests/auth.pp": "5f4050d9ea15f90aafb3cb5e8956d99b",
     "manifests/init.pp": "f1ff949bc1f227730c852cb03452d3ac",
-    "manifests/sftpserver.pp": "fa9bf1d0cb939a3aa3066593fad8e26a",
+    "manifests/sftpserver.pp": "d83577c7db02dfbc34f75dbfc9f6783c",
     "manifests/sshclient.pp": "1b108f333ec3d652450d277b130852ab",
     "manifests/sshserveruser.pp": "596943611220e410ad864b9623b5ec12",
     "manifests/sshuser.pp": "9876e128ef35e4430aee90a4adf40eb6",
