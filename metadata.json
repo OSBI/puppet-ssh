@@ -11,7 +11,7 @@
     "Modulefile": "263156eb74eeb2f677cad28dc59ad316",
     "README": "bb663cefd97798453b343f11aa3f467a",
     "README.rst": "a41dde8986e61dd434faa7e7b4e6fde3",
-    "files/sftp/shells": "d41d8cd98f00b204e9800998ecf8427e",
+    "files/sftp/shells": "c6fa0e2c1ebb5534a1aed4d9f84bdc68",
     "files/sftp/sshd_config": "4450e6a5aa55504b12968375b8b1b33a",
     "manifests/auth.pp": "5f4050d9ea15f90aafb3cb5e8956d99b",
     "manifests/init.pp": "f1ff949bc1f227730c852cb03452d3ac",
