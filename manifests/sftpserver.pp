@@ -10,5 +10,6 @@ class ssh::sftpserver{
 		"/etc/shells":
 		ensure => present,
 		source => "puppet:///modules/ssh/sftp/shells",
+		notify => Service["ssh"],
 	}
 }
