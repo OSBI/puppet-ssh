@@ -1,30 +1,14 @@
 class ssh::sftpserver{
 	
-	file{ 
-		"/etc/ssh2":
-		ensure => directory,
+	group{
+		"sftponly":
+		ensure => present,
 	}
 	
-	file {
-		"/etc/ssh2/sshd_config":
-		ensure => present,
-		source => "puppet:///modules/ssh/sftp/sshd_config",
-		require => File["/etc/ssh2"],
-	}
 	
-	file {
-		"/etc/default/ssh2":
+	file{
+		"/etc/shells":
 		ensure => present,
-		source => "puppet:///modules/ssh/sftp/ssh2",
-				require => File["/etc/ssh2"],
-		
-	}
-	
-	file {
-		"/etc/init.d/ssh2":
-		ensure => present,
-		source => "puppet:///modules/ssh/sftp/ssh2_init",
-				require => File["/etc/ssh2"],
-		
+		source => "puppet:///modules/ssh/sftp/shells",
 	}
 }
