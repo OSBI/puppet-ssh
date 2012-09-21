@@ -84,11 +84,11 @@ class keymaster {
 
   # Set up key storage
 
-  file { $ssh::auth::keymaster_storage:
+  file { '$ssh::auth::keymaster_storage':
     ensure => directory,               
-    owner  => puppet,                  
-    group  => puppet,                  
-    mode   => 644,                     
+    owner  => 'puppet',                  
+    group  => 'puppet',                  
+    mode   => '644',                     
   }                                    
                                        
   # Realize all virtual master keys    
