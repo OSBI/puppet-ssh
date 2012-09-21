@@ -1,4 +1,5 @@
 define ssh::sshclient (){
+	include ssh::auth
   file{"/home/${title}":
   	ensure => directory
   	}

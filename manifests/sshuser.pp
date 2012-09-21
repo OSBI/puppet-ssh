@@ -1,4 +1,5 @@
 define ssh::sshuser ($usergroups="users"){
+	include	ssh::auth
   @user { $title: 
           shell   =>      "/bin/bash",
           home    =>      "/home/$title",
