@@ -13,7 +13,7 @@
     "README.rst": "a41dde8986e61dd434faa7e7b4e6fde3",
     "files/sftp/shells": "c6fa0e2c1ebb5534a1aed4d9f84bdc68",
     "files/sftp/sshd_config": "4450e6a5aa55504b12968375b8b1b33a",
-    "manifests/auth.pp": "37328b3b6a7fbcbcc672fb09642ad07e",
+    "manifests/auth.pp": "bc7f3943954e70e81e9f8d8039d40b79",
     "manifests/config/ssh.pp": "3a67b08b53514be6b167eeb810d7d3e4",
     "manifests/config/sshd.pp": "e3366c414e49fa26bd9114d81dfadfcc",
     "manifests/init.pp": "f1ff949bc1f227730c852cb03452d3ac",
