@@ -1,7 +1,9 @@
 define ssh::sshclient (){
 	include ssh::auth
   file{"/home/${title}":
-  	ensure => directory
+  	ensure => directory,
+  	owner => "${title}",
+  	group => "${title}",
   	}
   realize File["/home/${title}/.ssh"]
   User <| title == $title |> { ensure => $ensure }

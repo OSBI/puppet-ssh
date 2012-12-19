@@ -19,7 +19,7 @@
     "manifests/init.pp": "f1ff949bc1f227730c852cb03452d3ac",
     "manifests/sftp/user.pp": "40788786c2bdff442b9e4fb21fbcf48c",
     "manifests/sftpserver.pp": "55633fab2b68ad3bc7d6efc992d91bbd",
-    "manifests/sshclient.pp": "a5c5977024b9fe32ec3890fffc96c3b0",
+    "manifests/sshclient.pp": "fa2bb1d9db0546c244c400f917dc9a03",
     "manifests/sshserveruser.pp": "572146d2655e7892ae877888a1cf8d84",
     "manifests/sshuser.pp": "92eabd97fb9ea3610b05b5ede030f890",
     "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
